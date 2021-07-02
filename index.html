@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./airplane.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travelly</title>
+  </head>
+  <body>
+    <!---------------------------Header------------------------------>
+    <header>
+      <div class="logo-div">
+        <h2><a href="#">Travelly</a></h2>
+      </div>
+      <nav>
+        <div class="hamburger-menu">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png"
+            alt="hamburger-menu"
+          />
+        </div>
+        <ul>
+          <a href="#Locations"><li>Locations</li></a>
+          <a href="#Benefits"><li>Benefits</li></a>
+          <a href="#Contact"><li>Contact</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!----------------- - Section 1: Locations ----------------------->
+      <section class="locations">
+        <article class="locations-content">
+          <h2>Travel Beyond Limits.<br /></h2>
+          <p>
+            Start your travel with affordable prices with Travelly.<br />Travel
+            in over 50 cities with one click.
+          </p>
+          <button>Book Now</button>
+        </article>
+      </section>
+      <!--------------------------------Section 2: About------------------------->
+      <section id="Locations">
+        <article class="about-content">
+          <h2>Time to Explore.</h2>
+          <hr />
+          <br />
+          <p>
+            Has your dream always been to visit New <br />York City? We can make
+            it possible for you.
+          </p>
+          <img src="./img/cloud.png" alt="" class="cloud cloud-1" />
+          <img src="./img/cloud.png" alt="" class="cloud cloud-2" />
+        </article>
+      </section>
+      <!---------------------------Section 3:Benefits------------------------>
+      <section id="Benefits">
+        <article class="benefits-content">
+          <h2>The Perfect Travelling Experience</h2>
+          <br />
+          <p>
+            We cover everything from picking the perfect hotel,<br />flight and
+            travelling destination.
+          </p>
+        </article>
+        <article class="cards">
+          <div class="travel card">
+            <img src="./icons/route-solid.svg" alt="" />
+            <div class="card-content">
+              <h2>Travel</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,
+                at adipisci repellat, rerum voluptatum qui soluta error placeat
+                excepturi cumque eveniet quaerat molestias, repudiandae eos
+                recusandae neque ducimus odio quasi!
+              </p>
+            </div>
+          </div>
+          <div class="sleep card">
+            <img src="./icons/bed-solid.svg" alt="" />
+            <div class="card-content">
+              <h2>Sleep</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,
+                at adipisci repellat, rerum voluptatum qui soluta error placeat
+                excepturi cumque eveniet quaerat molestias, repudiandae eos
+                recusandae neque ducimus odio quasi!
+              </p>
+            </div>
+          </div>
+          <div class="fly card">
+            <img src="./icons/plane-departure-solid.svg" alt="" />
+            <div class="card-content">
+              <h2>Fly</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,
+                at adipisci repellat, rerum voluptatum qui soluta error placeat
+                excepturi cumque eveniet quaerat molestias, repudiandae eos
+                recusandae neque ducimus odio quasi!
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!--------------------------- Contact Section ---------------------------->
+      <section id="Contact">
+        <article class="form">
+         <h2>Contact US</h2>
+          <form action="https://formspree.io/f/xlealgao" method="POST">
+            <div class="name">
+              <label for="Name">Name: </label>
+              <input
+                type="text"
+                id="Name"
+                name="name"
+                required
+                placeholder="John Doe"
+              />
+            </div>
+            <br />
+            <div class="email">
+              <label for="Email">Email: </label>
+              <input
+                type="email"
+                id="Email"
+                name="email"
+                required
+                placeholder="johndoe@email.com"
+              />
+            </div>
+            <br />
+            <button type="Submit">Submit</button>
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer>
+     <h2>Travelly&copy2019</h2>
+     <ul>
+      <li><a href="#"><img src="./icons/youtube.svg" alt=""></a></li>
+      <li><a href="#"><img src="./icons/twitter.svg" alt=""></a></li>
+      <li><a href="#"><img src="./icons/instagram.svg" alt=""></a></li>
+     </ul>
+    </footer>
+  </body>
+</html>
