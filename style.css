@@ -32,6 +32,10 @@ header {
   justify-content: space-between;
   padding: 2rem 3rem;
   background-color: #131c27;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .logo-div {
   flex: 0 0 10%;
