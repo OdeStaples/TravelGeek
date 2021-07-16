@@ -7,6 +7,7 @@
 }
 html {
   font-size: 62.5%;
+  scroll-behaviour: smooth;
 }
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
