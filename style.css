@@ -107,7 +107,7 @@ nav ul a:hover {
     transition: all 250ms ease-in-out;
   }
   .hamburger:hover .ham-menu {
-    background-color: rgb(34, 28, 28);
+    background-color: transparent;
   }
   .hamburger:hover .ham-menu::after {
     transform: rotate(-45deg);
